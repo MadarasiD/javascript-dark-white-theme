@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    font-family: sans-serif;
+
+}
+
+.text{
+
+    text-align: center;
+    width: 80%;
+
+}
+
+.label {
+
+    background: #111;
+    display: flex;
+    width: 50px;
+    height: 26px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    position: relative;
+}
